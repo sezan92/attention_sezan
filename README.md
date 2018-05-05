@@ -5,7 +5,7 @@ contact: sezan92[at]gmail[dot]com
 In this project I have implemented -at least tried to implement- Attention Mechanism for Encoder-Decoder Deep Learning Network for English To Bangla Translation in keras. Neural Machine Translation is a case for Encoder Decoder network. An example is given in Jason Brownlee's [blog](https://machinelearningmastery.com/develop-neural-machine-translation-system-keras/) . But this architecture had a problem for long sentences . Bahdanau et al. used Attention mechanism for Neural Machine Translation , in this [paper](https://arxiv.org/abs/1409.0473). 
 
 ### Attention Mechanism
-I have used one of the implementations from Luong Thang's phd [thesis](https://github.com/lmthang/thesis). The images is as following ![attention_luong](attention_luong.png). Don't be afraid by the image! 
+I have used one of the implementations from Luong Thang's phd [thesis](https://github.com/lmthang/thesis). From the paper, the model is as following ![attention_luong](attention_luong.png). Don't be afraid by the image! 
 What attention layer does can be summarized in following points
 
 * Takes Input <img src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg" align=middle width=5.98554pt height=20.9154pt/>
