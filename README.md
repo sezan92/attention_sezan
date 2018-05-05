@@ -17,7 +17,7 @@ What attention layer does can be summarized in following points
 * The attention work is done , the rest is like Decoder Architecture
 
 ### Experiment
-I have worked on English to Bengali (My mother tongue). I have used the data from this [website](http://www.manythings.org/anki/) , it has around 4500 data for English-Bangla translation . The result is not good, but for my first try with attention from scratch, I am happy with it! The [notebook](Attention Mechanism.ipynb) tries to explain the code. [Bangla](Attention_bangla.png) .
+I have worked on English to Bengali (My mother tongue). I have used the data from this [website](http://www.manythings.org/anki/) , it has around 4500 data for English-Bangla translation . The result is not good, but for my first try with attention from scratch, I am happy with it! The [notebook](Attention Mechanism.ipynb) tries to explain the code. ![Bangla](Attention_bangla.png) .
 
 * ```main_bengali_fh.py``` code for training model
 * ```attention_test_fh.py``` code for testing the model
