@@ -8,12 +8,12 @@ In this project I have implemented -at least tried to implement- Attention Mecha
 I have used one of the implementations from Luong Thang's phd [thesis](https://github.com/lmthang/thesis). The images is as following ![attention_luong](attention_luong.png). Don't be afraid by the image! 
 What attention layer does can be summarized in following points
 
-* Takes Input <img src="https://rawgit.com/sezan92/attention_sezan/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.98554pt height=20.9154pt/>
-* Takes the Hidden state of Encode Input, <img src="https://rawgit.com/sezan92/attention_sezan/svgs/1aab1770b68066844c966ae18c45b82a.svg?invert_in_darkmode" align=middle width=117.746475pt height=23.88969pt/>
-* Takes the Hidden state of Previous Output <img src="https://rawgit.com/sezan92/attention_sezan/svgs/d936750faac4f15a209b7896a6c1b128.svg?invert_in_darkmode" align=middle width=162.01185pt height=23.88969pt/>
-* Derives a function with the two hidden state, <img src="https://rawgit.com/sezan92/attention_sezan/svgs/8e5747c4e2ce0445396b2500b0b89d77.svg?invert_in_darkmode" align=middle width=101.448765pt height=23.88969pt/>
-* Derives a softmax function from that tanh function <img src="https://rawgit.com/sezan92/attention_sezan/svgs/aadb9a22fc4147892b17c217902de2a9.svg?invert_in_darkmode" align=middle width=171.78645pt height=23.88969pt/>
-* Multiplies this softmax function with the hidden state of input <img src="https://rawgit.com/sezan92/attention_sezan/svgs/0e28faecff2adc1234a5b7e648ba9772.svg?invert_in_darkmode" align=middle width=193.1226pt height=23.88969pt/>
+* Takes Input <img src="svgs/77a3b857d53fb44e33b53e4c8b68351a.svg" align=middle width=5.98554pt height=20.9154pt/>
+* Takes the Hidden state of Encode Input, <img src="https://rawgit.com/sezan92/attention_sezan/None/svgs/1aab1770b68066844c966ae18c45b82a.svg?invert_in_darkmode" align=middle width=117.746475pt height=23.88969pt/>
+* Takes the Hidden state of Previous Output <img src="https://rawgit.com/sezan92/attention_sezan/None/svgs/d936750faac4f15a209b7896a6c1b128.svg?invert_in_darkmode" align=middle width=162.01185pt height=23.88969pt/>
+* Derives a function with the two hidden state, <img src="https://rawgit.com/sezan92/attention_sezan/None/svgs/8e5747c4e2ce0445396b2500b0b89d77.svg?invert_in_darkmode" align=middle width=101.448765pt height=23.88969pt/>
+* Derives a softmax function from that tanh function <img src="https://rawgit.com/sezan92/attention_sezan/None/svgs/aadb9a22fc4147892b17c217902de2a9.svg?invert_in_darkmode" align=middle width=171.78645pt height=23.88969pt/>
+* Multiplies this softmax function with the hidden state of input <img src="https://rawgit.com/sezan92/attention_sezan/None/svgs/0e28faecff2adc1234a5b7e648ba9772.svg?invert_in_darkmode" align=middle width=193.1226pt height=23.88969pt/>
 * The attention work is done , the rest is like Decoder Architecture
 
 ### Experiment
