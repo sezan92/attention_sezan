@@ -1,4 +1,4 @@
-## Possible Implementation of Attention Mechanism for English to Bangla Translation
+## Probable Implementation of Attention Mechanism for English to Bangla Translation
 MD Muhaimin Rahman
 contact: sezan92[at]gmail[dot]com
 
